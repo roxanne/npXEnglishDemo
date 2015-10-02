@@ -1,0 +1,71 @@
+($$ (
+  (1 nil TERM 'expression_$$_1_v' '' 186 453)
+  (2 nil EXPRESSION 'expression_$$_2_v' '' 586 105)
+  (3 nil FACTOR 'expression_$$_3_v' '' 272 181)
+))
+
+(* (
+  (1 (x) x '' '' 297 392)
+))
+
+(+ (
+  (1 nil ((TERM 1 503 81)) (TERM) 'expression_plus_1' 489 44)
+))
+
+(- (
+  (1 nil ((TERM 1 528 81)) (TERM) 'expression_minus_1' 542 43)
+  (2 (EXPRESSION FACTOR TERM) ((FACTOR 2 105 231)) (FACTOR) '' 75 224)
+))
+
+(. (
+  (1 nil ((DIGITSTRING 2 242 124) ($$ 3 243 156)) (DIGITSTRING) '' 206 117)
+  (2 (EXPRESSION FACTOR TERM) ((DIGITSTRING 2 242 103)) (DIGITSTRING) 'expression_DECIMALPOINT_2' 206 76)
+))
+
+(/ (
+  (1 nil ((FACTOR 1 126 431)) (FACTOR) 'expression_divided_by_1' 148 395)
+))
+
+([ (
+  (1 (EXPRESSION FACTOR TERM) ((EXPRESSION 2 107 287)) (EXPRESSION) '' 77 280)
+))
+
+(] (
+  (1 nil FACTOR 'expression_RIGHT_BRACKET_v' '' 249 280)
+))
+
+(DIGITSTRING (
+  (1 (EXPRESSION FACTOR TERM) ((. 1 181 124) ($$ 3 214 156)) () 'expression_DIGITSTRING_1' 79 117)
+  (2 nil FACTOR 'expression_DIGITSTRING_2_v' '' 270 117)
+))
+
+(EXPRESSION (
+  (1 nil ((RPAREN 1 273 340)) () 'expression_EXPRESSION' 173 333)
+  (2 nil ((] 1 228 287)) () 'expression_EXPRESSION' 128 280)
+))
+
+(FACTOR (
+  (1 (EXPRESSION TERM) ((x 1 112 431) (/ 1 147 431) ($$ 1 166 460)) (x) 'expression_FACTOR_1' 95 453)
+  (2 nil FACTOR 'expression_FACTOR_2_v' '' 126 224)
+))
+
+(LPAREN (
+  (1 (EXPRESSION FACTOR TERM) ((EXPRESSION 1 152 340)) (EXPRESSION) '' 80 333)
+))
+
+(NUMBER (
+  (1 (EXPRESSION DIGITSTRING FACTOR TERM) DIGITSTRING 'expression_NUMBER_1_v' '' 77 35)
+))
+
+(RPAREN (
+  (1 nil FACTOR 'expression_RIGHT_BRACKET_v' '' 293 333)
+))
+
+(TERM (
+  (1 (EXPRESSION) ((+ 1 515 81) (- 1 542 81) ($$ 2 564 112)) () 'expression_TERM_1' 504 105)
+))
+
+(x (
+  (1 nil ((FACTOR 1 93 431)) (FACTOR) 'expression_times_1' 78 395)
+))
+

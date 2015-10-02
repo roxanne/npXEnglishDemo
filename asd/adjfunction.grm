@@ -1,0 +1,222 @@
+($$ (
+  (1 nil ADJ-SIZE-GRADBL '' '' 674 477)
+  (2 nil ADJ-SIZE-SUP '' '' 866 238)
+))
+
+(ADJ-COMP-P (
+  (1 nil ADJ-COMP-INTERROG '' '' 700 352)
+))
+
+(ADJ-SIZE (
+  (1 (ADJ-SIZE-P) ADJ-SIZE-P '' '' 17 450)
+))
+
+(ADJ-SIZE-COMP (
+  (1 (ADJ-SIZE-COMP-P) ADJ-SIZE-COMP-P '' '' 782 166)
+))
+
+(ADJ-SIZE-COMP-P (
+  (1 nil ADJ-SIZE-COMP-INTERROG '' '' 700 383)
+))
+
+(ADJ-SIZE-GRADBL (
+  (1 (ADJ-SIZE-P) ADJ-SIZE-P '' '' 772 44)
+  (2 nil ADJ-SIZE-SUP1 '' '' 328 16)
+  (3 nil ADJ-SIZE-COMP '' '' 93 482)
+))
+
+(ADJ-SIZE-LARGE (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P) ((ADJ-SIZE-LARGE 1 584 416) ($$ 1 654 463)) (ADJ-SIZE-LARGE) '' 534 435)
+))
+
+(ADJ-SIZE-P (
+  (1 nil ADJ-SIZE-INTERROG '' '' 700 321)
+))
+
+(ADJ-SIZE-SMALL (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P) ((ADJ-SIZE-SMALL 1 583 462) ($$ 1 654 486)) (ADJ-SIZE-SMALL) '' 532 481)
+))
+
+(ADJ-SIZE-SUP1 (
+  (1 (ADJ-SIZE-SUP) ((ever 1 846 216) ($$ 2 846 230)) () '' 734 209)
+))
+
+(ADJ-THRESH-P (
+  (1 nil ADJ-THRESH-INTERROG '' '' 701 415)
+))
+
+(ADJ-THRESHOLD (
+  (1 (ADJ-THRESH-P) ADJ-THRESH-P '' '' 773 14)
+))
+
+(APPROX (
+  (1 (ADJ-COMP-P) ((same 1 313 360)) () '' 237 353)
+  (2 (ADJ-THRESH-P ADJ-SIZE-P ADJ-COMP-P ADJ-SIZE-COMP-P ADJ-SIZE-SUP) ((GRADER-P 1 557 65) (even 1 553 135) (much 1 609 125) (ADJ-THRESHOLD 1 659 60) (similar 1 680 89) (comparable 1 671 120) (more 1 638 103) (ADJ-SIZE-GRADBL 1 658 75) (ADJ-SIZE-SUP1 1 639 157) (ever 2 561 80)) (ADJ-SIZE-GRADBL ADJ-THRESHOLD ADJ-SIZE-SUP1) '' 490 92)
+))
+
+(big (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 20 7)
+))
+
+(comparable (
+  (1 (ADJ-COMP-P) ADJ-COMP-P '' '' 797 134)
+))
+
+(different (
+  (1 (ADJ-COMP-P) ADJ-COMP-P '' '' 810 102)
+))
+
+(even (
+  (1 (ADJ-COMP-P ADJ-SIZE-COMP-P) ((much 1 633 162) (ADJ-SIZE-COMP 1 688 172) (more 1 663 139)) (ADJ-SIZE-COMP) '' 561 165)
+))
+
+(ever (
+  (1 nil ADJ-SIZE-SUP '' '' 865 209)
+  (2 (ADJ-COMP-P) ((more 1 670 84)) () '' 577 54)
+))
+
+(fair (
+  (1 (ADJ-SIZE ADJ-SIZE-P) ADJ-SIZE '' '' 23 203)
+))
+
+(gigantic (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 18 327)
+))
+
+(good (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 21 265)
+))
+
+(GRADER-COMP-P (
+  (1 (ADJ-SIZE-COMP-P) ((ADJ-SIZE-COMP 1 735 193)) (ADJ-SIZE-COMP) '' 585 206)
+))
+
+(GRADER-P (
+  (1 (ADJ-THRESH-P ADJ-SIZE-P ADJ-COMP-P ADJ-SIZE-COMP-P) ((ADJ-SIZE-GRADBL 1 703 41) (ADJ-THRESHOLD 1 703 26) (similar 1 724 55) (more 1 683 69) (much 1 653 92) (different 1 722 70) (comparable 1 715 86)) (ADJ-THRESHOLD ADJ-SIZE-GRADBL) '' 569 25)
+))
+
+(great (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 19 296)
+))
+
+(greatest (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 329 44)
+))
+
+(huge (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 18 357)
+))
+
+(hugest (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 328 74)
+))
+
+(insufficient (
+  (1 (ADJ-THRESHOLD ADJ-THRESH-P) ADJ-THRESHOLD '' '' 334 321)
+))
+
+(INTERROG-HOW (
+  (1 (ADJ-COMP-INTERROG ADJ-THRESH-INTERROG ADJ-SIZE-COMP-INTERROG ADJ-SIZE-INTERROG) ((ADJ-SIZE-P 1 651 342) (ADJ-COMP-P 1 651 357) (ADJ-SIZE-COMP-P 1 651 373) (ADJ-THRESH-P 1 652 389)) (ADJ-COMP-P ADJ-SIZE-COMP-P ADJ-THRESH-P ADJ-SIZE-P) '' 506 349)
+))
+
+(large (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 19 385)
+))
+
+(larger (
+  (1 (ADJ-SIZE-COMP ADJ-SIZE-COMP-P) ADJ-SIZE-COMP '' '' 334 480)
+))
+
+(largest (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 328 102)
+))
+
+(least (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 329 250)
+))
+
+(little (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P ADJ-SIZE-SMALL) ADJ-SIZE-SMALL '' '' 16 37)
+))
+
+(littler (
+  (1 (ADJ-SIZE-COMP ADJ-SIZE-COMP-P) ADJ-SIZE-COMP '' '' 334 389)
+))
+
+(maximal (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-LARGE ADJ-SIZE-P) ADJ-SIZE-LARGE '' '' 18 417)
+))
+
+(maximum (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 328 133)
+))
+
+(minimal (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P ADJ-SIZE-SMALL) ADJ-SIZE-SMALL '' '' 18 65)
+))
+
+(minimum (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 329 162)
+))
+
+(moderate (
+  (1 (ADJ-SIZE ADJ-SIZE-P) ADJ-SIZE '' '' 21 231)
+))
+
+(more (
+  (1 (ADJ-COMP-P) ((similar 1 791 93) (different 1 789 108) (comparable 1 782 124)) () '' 732 100)
+  (2 (ADJ-SIZE-COMP ADJ-SIZE-COMP-P) ((ADJ-SIZE-GRADBL 3 72 489)) (ADJ-SIZE-GRADBL) '' 16 482)
+))
+
+(most (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ((ADJ-SIZE-GRADBL 2 296 23) (maximum 1 296 81) (minimum 1 297 96)) (ADJ-SIZE-GRADBL) '' 230 16)
+))
+
+(much (
+  (1 (ADJ-COMP-P ADJ-SIZE-COMP-P) ((more 1 721 129) (different 1 760 130) (ADJ-SIZE-COMP 1 746 162)) (ADJ-SIZE-COMP) '' 673 145)
+))
+
+(same (
+  (1 (ADJ-COMP-P) ADJ-COMP-P '' '' 335 354)
+))
+
+(similar (
+  (1 (ADJ-COMP-P) ADJ-COMP-P '' '' 815 72)
+))
+
+(small (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P ADJ-SIZE-SMALL) ADJ-SIZE-SMALL '' '' 20 98)
+))
+
+(smaller (
+  (1 (ADJ-SIZE-COMP ADJ-SIZE-COMP-P) ADJ-SIZE-COMP '' '' 334 419)
+))
+
+(smallest (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 329 190)
+))
+
+(sufficient (
+  (1 (ADJ-THRESHOLD ADJ-THRESH-P) ADJ-THRESHOLD '' '' 333 292)
+))
+
+(teeny (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P ADJ-SIZE-SMALL) ADJ-SIZE-SMALL '' '' 18 161)
+))
+
+(tinier (
+  (1 (ADJ-SIZE-COMP ADJ-SIZE-COMP-P) ADJ-SIZE-COMP '' '' 334 449)
+))
+
+(tiniest (
+  (1 (ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ADJ-SIZE-SUP1 '' '' 328 220)
+))
+
+(tiny (
+  (1 (ADJ-SIZE-GRADBL ADJ-SIZE-P ADJ-SIZE-SMALL) ADJ-SIZE-SMALL '' '' 20 131)
+))
+
+(very (
+  (1 (ADJ-COMP-P ADJ-SIZE-SUP1 ADJ-SIZE-SUP) ((very 1 193 138) (most 1 219 93) (greatest 1 268 107) (hugest 1 268 122) (largest 1 268 136) (maximum 1 268 152) (minimum 1 268 166) (smallest 1 268 180) (tiniest 1 268 195) (same 1 271 262) (least 1 268 210)) () '' 178 157)
+))
+

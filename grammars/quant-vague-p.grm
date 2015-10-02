@@ -1,0 +1,111 @@
+($$ (
+  (1 nil QUANT-VAGUE-P '' '' 801 132)
+))
+
+(a (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((GRADER-P 1 298 183) (ADJ-OR-NOUN-QUANT 1 445 168) (lot 1 464 267) (whole 1 361 267) (ADJ-SIZE-P 1 357 211) (bit 1 464 248)) (ADJ-OR-NOUN-QUANT) '' 247 204)
+  (2 (QUANT-VAGUE-P) ((couple 1 272 363)) () '' 241 356)
+))
+
+(ADJ-OR-NOUN-QUANT (
+  (1 (QUANT-VAGUE-P) ((THRESH-POST 1 781 112) ($$ 1 781 132)) () '' 630 118)
+))
+
+(ADJ-SIZE-P (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((many 2 593 196) (little 2 593 211) (deal 1 594 228) (bit 1 596 248) (lot 1 596 267)) () '' 454 204)
+))
+
+(ATTITUDE-P (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 168 217) (LIMITER 1 111 232) (DOWNTONER 1 106 293) (quite 1 121 249) (rather 1 119 267)) () '' 17 217)
+))
+
+(bit (
+  (1 (QUANT-VAGUE-NP) QUANT-VAGUE-NP '' '' 668 278)
+))
+
+(couple (
+  (1 (QUANT-VAGUE-P) QUANT-VAGUE-P '' '' 290 357)
+))
+
+(deal (
+  (1 nil QUANT-VAGUE-NP '' '' 664 239)
+))
+
+(DOWNTONER (
+  (1 (QUANT-VAGUE-P) ((a 2 223 362)) () '' 123 355)
+))
+
+(few (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-P) ADJ-OR-NOUN-QUANT '' '' 13 17)
+))
+
+(GRADER-P (
+  (1 (QUANT-VAGUE-P) ((ADJ-OR-NOUN-QUANT 1 516 140) (THRESH-PRE 1 407 141)) (ADJ-OR-NOUN-QUANT) '' 337 149)
+))
+
+(INTERROG-HOW (
+  (1 (QUANT-VAGUE-P) ((GRADER-P 1 330 126) (ADJ-OR-NOUN-QUANT 1 477 111)) (ADJ-OR-NOUN-QUANT) '' 227 90)
+))
+
+(LIMITER (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 215 225) (a 2 212 301)) () '' 133 233)
+))
+
+(little (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-P) ADJ-OR-NOUN-QUANT '' '' 13 47)
+  (2 nil QUANT-VAGUE-P '' '' 663 204)
+))
+
+(lot (
+  (1 (QUANT-VAGUE-NP) QUANT-VAGUE-NP '' '' 669 316)
+))
+
+(many (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-P) ADJ-OR-NOUN-QUANT '' '' 13 76)
+  (2 nil QUANT-VAGUE-P '' '' 663 174)
+))
+
+(much (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-P) ADJ-OR-NOUN-QUANT '' '' 12 106)
+))
+
+(quite (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 217 243)) () '' 153 268)
+))
+
+(rather (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 218 260)) () '' 148 303)
+))
+
+(several (
+  (1 (QUANT-VAGUE-P) QUANT-VAGUE-P '' '' 13 136)
+))
+
+(such (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 213 189)) () '' 146 160)
+))
+
+(that (
+  (1 (QUANT-VAGUE-P) ((ADJ-OR-NOUN-QUANT 1 513 77)) (ADJ-OR-NOUN-QUANT) '' 369 23)
+))
+
+(this (
+  (1 (QUANT-VAGUE-P) ((ADJ-OR-NOUN-QUANT 1 513 94)) (ADJ-OR-NOUN-QUANT) '' 369 56)
+))
+
+(THRESH-POST (
+  (1 nil QUANT-VAGUE-P '' '' 802 92)
+))
+
+(THRESH-PRE (
+  (1 (QUANT-VAGUE-P) ((ADJ-OR-NOUN-QUANT 1 560 125)) (ADJ-OR-NOUN-QUANT) '' 412 119)
+))
+
+(what (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 214 202)) () '' 148 187)
+))
+
+(whole (
+  (1 (QUANT-VAGUE-NP) ((lot 1 586 323)) () '' 463 316)
+))
+

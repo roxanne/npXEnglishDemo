@@ -1,0 +1,184 @@
+($$ (
+  (1 nil DETERMINER '' '' 821 209)
+  (2 nil POSS-P '' '' 279 249)
+  (3 nil DETERMINER-P '' '' 451 452)
+))
+
+(a (
+  (1 nil DETERMINER1 'features' 'a_1_action' 682 23)
+  (2 (DETERMINER DETERMINER-P) DETERMINER '' '' 99 28)
+))
+
+(ADJ-DESCR-P (
+  (1 (DETERMINER1 DETERMINER-P) ((a 1 592 36)) (a) '' 418 35)
+))
+
+(ADJ-INTERROG-P (
+  (1 (DETERMINER1 DETERMINER-P) ((a 1 601 21)) (a) '' 417 6)
+))
+
+(all (
+  (1 (DETERMINER DETERMINER-P) (($$ 1 769 217) (the 1 768 235) (that 1 766 253) (these 1 765 271) (this 1 767 287) (those 1 767 303) (what 1 766 318) (which 1 766 334) (POSS-P 1 766 352)) (POSS-P) '' 698 212)
+))
+
+(an (
+  (1 (DETERMINER a DETERMINER-P) a '' '' 22 28)
+))
+
+(another (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'another_1_action' 17 61)
+))
+
+(any (
+  (1 (DETERMINER DETERMINER-P) DETERMINER '' '' 725 69)
+))
+
+(APOSTROPHE (
+  (1 nil POSSESSIVE '' '' 95 459)
+))
+
+(APOSTROPHEs (
+  (1 nil POSSESSIVE '' '' 95 420)
+))
+
+(APPROX (
+  (1 (DETERMINER DETERMINER-P) ((all 1 686 199) (no 1 696 182) (any 1 700 127) (every 1 699 163) (each 1 699 145)) () '' 620 172)
+))
+
+(both (
+  (1 (DETERMINER DETERMINER-P) (($$ 1 742 250) (the 1 741 268) (these 1 738 304) (those 1 740 336) (what 1 739 351) (which 1 739 367) (POSS-P 1 739 385)) (POSS-P) '' 632 278)
+))
+
+(COMMA-COORD (
+  (1 nil ((POSSESSIVE 1 209 229)) (POSSESSIVE) '' 157 195)
+))
+
+(DETERMINER (
+  (1 (DETERMINER-P) ((DETERMINER1 1 427 415) ($$ 3 429 437)) (DETERMINER1) '' 328 408)
+))
+
+(DETERMINER1 (
+  (1 (DETERMINER-P) DETERMINER-P '' '' 447 408)
+))
+
+(each (
+  (1 (DETERMINER DETERMINER-P) DETERMINER '' '' 723 105)
+))
+
+(every (
+  (1 (DETERMINER DETERMINER-P) DETERMINER '' '' 724 140)
+))
+
+(GRADER-P (
+  (1 (DETERMINER DETERMINER1 DETERMINER-P) ((many 1 471 267) (many's 1 466 282)) () '' 364 310)
+))
+
+(her (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'her_1_action' 21 147)
+))
+
+(his (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'his_1_action' 21 178)
+))
+
+(its (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'its_1_action' 21 209)
+))
+
+(many (
+  (1 (DETERMINER DETERMINER-P) ((the 1 685 234) (POSS-P 1 682 352)) (POSS-P) '' 513 211)
+))
+
+(many's (
+  (1 (DETERMINER DETERMINER1 DETERMINER-P) ((a 1 616 139) (the 1 685 249) (POSS-P 1 682 367)) (POSS-P a) '' 503 241)
+))
+
+(my (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'my_1_action' 21 241)
+))
+
+(no (
+  (1 (DETERMINER DETERMINER-P) DETERMINER '' 'no_1_action' 717 179)
+))
+
+(NP (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) ((APOSTROPHEs 1 69 427) (APOSTROPHE 1 69 446)) () '' 22 420)
+))
+
+(one's (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE '' '' 174 147)
+))
+
+(our (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'our_1_action' 19 274)
+))
+
+(POSS-P (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'raiseFeatures' 815 479)
+))
+
+(POSSESSIVE (
+  (1 (POSS-P DETERMINER DETERMINER-P) ((COMMA-COORD 1 201 229) ($$ 2 262 256)) () '' 165 249)
+))
+
+(QUANT-VAGUE-P (
+  (1 (DETERMINER1 DETERMINER-P) ((a 1 596 50)) (a) '' 410 64)
+))
+
+(quite (
+  (1 (DETERMINER DETERMINER1 DETERMINER-P) ((a 1 553 151) (the 1 622 261) (POSS-P 1 619 379) (such 1 451 202)) (POSS-P a) '' 390 265)
+))
+
+(rather (
+  (1 (DETERMINER DETERMINER1 DETERMINER-P) ((a 1 555 128) (POSS-P 1 622 356) (such 1 453 179)) (POSS-P a) '' 388 219)
+))
+
+(some (
+  (1 (DETERMINER DETERMINER-P) DETERMINER '' '' 16 91)
+))
+
+(such (
+  (1 (DETERMINER1 DETERMINER-P) ((a 1 597 81)) (a) '' 478 125)
+))
+
+(that (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'that_1_action' 816 280)
+))
+
+(the (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'the_1_action' 820 244)
+))
+
+(their (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'their_1_action' 20 308)
+))
+
+(these (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'these_1_action' 814 316)
+))
+
+(this (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'this_1_action' 818 349)
+))
+
+(those (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'those_1_action' 817 380)
+))
+
+(what (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'what_1_action' 816 411)
+  (2 (DETERMINER1 DETERMINER-P) ((a 1 597 66)) (a) '' 478 95)
+))
+
+(which (
+  (1 (DETERMINER DETERMINER-P) DETERMINER 'features' 'which_1_action' 816 443)
+))
+
+(whose (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'whose_1_action' 20 340)
+))
+
+(your (
+  (1 (POSS-P DETERMINER POSSESSIVE DETERMINER-P) POSSESSIVE 'features' 'your_1_action' 20 371)
+))
+

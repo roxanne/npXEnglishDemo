@@ -1,0 +1,118 @@
+($$ (
+  (1 nil APPR '' '' 199 90)
+  (2 nil APPR '' '' 222 369)
+  (3 nil APPROX '' '' 541 294)
+))
+
+(about (
+  (1 (APPROX APPR) APPR '' '' 98 250)
+))
+
+(ADJ-OR-NOUN-QUANT (
+  (1 nil ((as 2 240 180)) () '' 94 173)
+))
+
+(almost (
+  (1 (APPROX APPR) APPR '' '' 38 214)
+))
+
+(APPR (
+  (1 (APPROX) (($$ 3 520 282) (APPROX 1 521 263)) (APPROX) '' 462 256)
+))
+
+(APPROX (
+  (1 nil APPROX '' '' 542 256)
+  (2 nil APPROX '' '' 554 353)
+))
+
+(approximately (
+  (1 (APPROX APPR) APPR '' '' 470 14)
+))
+
+(around (
+  (1 (APPROX APPR) APPR '' '' 103 288)
+))
+
+(as (
+  (1 (APPROX APPR) ((ADJ-OR-NOUN-QUANT 1 76 180)) () '' 39 173)
+  (2 nil APPR '' '' 256 173)
+))
+
+(ATTITUDE-P (
+  (1 (APPROX) ((APPROX 2 536 360)) (APPROX) '' 445 353)
+))
+
+(even (
+  (1 nil (($$ 1 178 65)) () '' 124 26)
+))
+
+(exactly (
+  (1 (APPROX APPR) APPR '' '' 473 115)
+  (2 nil APPR '' '' 124 123)
+))
+
+(far (
+  (1 (APPROX APPR) ((from 1 517 158)) () '' 474 151)
+))
+
+(from (
+  (1 nil APPR '' '' 538 151)
+))
+
+(give (
+  (1 (APPROX APPR) ((or 2 74 410)) () '' 28 404)
+))
+
+(GRADER-P (
+  (1 (APPROX APPR) ((approximately 1 445 71) (nearly 1 445 86) (roughly 1 446 103) (exactly 1 447 121) (far 1 447 139)) () '' 356 114)
+))
+
+(just (
+  (1 (APPROX APPR) ((about 1 81 257)) () '' 38 250)
+))
+
+(less (
+  (1 nil ((than 1 200 341) ($$ 2 200 358)) () '' 149 334)
+))
+
+(DOWNTONER (
+  (1 (APPROX APPR) APPR '' '' 28 456)
+))
+
+(more (
+  (1 (APPROX APPR) ((or 1 85 340)) () '' 33 333)
+))
+
+(nearly (
+  (1 (APPROX APPR) APPR '' '' 470 45)
+))
+
+(not (
+  (1 (APPROX APPR) ((even 1 95 65) (quite 1 95 81) ($$ 1 133 97) (exactly 2 95 113)) () '' 43 90)
+))
+
+(or (
+  (1 nil ((less 1 134 340)) () '' 101 333)
+  (2 nil ((take 1 126 410)) () '' 91 403)
+))
+
+(quite (
+  (1 nil (($$ 1 178 81)) () '' 124 58)
+))
+
+(right (
+  (1 (APPROX APPR) ((around 1 85 295)) () '' 35 288)
+))
+
+(roughly (
+  (1 (APPROX APPR) APPR '' '' 472 79)
+))
+
+(take (
+  (1 nil APPR '' '' 144 404)
+))
+
+(than (
+  (1 nil APPR '' '' 222 334)
+))
+

@@ -1,0 +1,86 @@
+($$ (
+  (1 nil ORDIR-P '' '' 574 174)
+  (2 nil CARD-P '' '' 395 35)
+  (3 nil ORDIR-P '' '' 392 367)
+))
+
+(a (
+  (1 (CARD-P) ((dozen 1 224 128) (score 1 121 180) (baker's 1 117 127) (TENPOWER 1 209 150) (bakers 1 118 143)) () '' 40 174)
+))
+
+(baker's (
+  (1 (CARD-P) ((dozen 1 313 75)) () '' 182 67)
+))
+
+(bakers (
+  (1 (CARD-P) ((dozen 1 312 90)) () '' 183 98)
+))
+
+(before (
+  (1 nil ((last 1 615 338)) () '' 490 346)
+))
+
+(but (
+  (1 nil ((last 1 610 321)) () '' 499 312)
+  (2 nil ((CARD-P 1 735 63)) (CARD-P) '' 686 48)
+))
+
+(CARD-P (
+  (1 nil ORDIR-P '' '' 761 65)
+))
+
+(CARDINAL (
+  (1 (CARD-P) ((score 1 150 111) (dozen 1 253 59) ($$ 2 252 42) (baker's 1 146 58) (bakers 1 146 73)) () '' 46 35)
+))
+
+(dozen (
+  (1 (CARD-P) CARD-P '' '' 396 69)
+))
+
+(except (
+  (1 nil ((CARD-P 1 746 81)) (CARD-P) '' 686 84)
+))
+
+(from (
+  (1 nil ((last 1 612 279)) () '' 495 228)
+))
+
+(last (
+  (1 (ORDIR-P) ORDIR-P '' '' 697 316)
+  (2 (ORDIR-P) ((but 2 646 48) (except 1 646 66)) () '' 579 34)
+))
+
+(next (
+  (1 (ORDIR-P) ((from 1 427 272) (to 1 430 298) (but 1 429 314) ($$ 3 376 341) (before 1 425 331)) () '' 329 302)
+  (2 (ORDIR-P) ((but 2 648 64) (except 1 648 82)) () '' 579 66)
+))
+
+(ORDINAL (
+  (1 (ORDIR-P) ((last 1 541 280) (to 1 443 262) (but 1 442 278) (from 1 440 236) ($$ 1 480 209) (before 1 438 295)) () '' 329 230)
+))
+
+(preceding (
+  (1 (ORDIR-P) ORDIR-P '' '' 490 408)
+))
+
+(previous (
+  (1 (ORDIR-P) ORDIR-P '' '' 489 441)
+  (2 (ORDIR-P) ((but 2 660 80) (except 1 660 98)) () '' 579 99)
+))
+
+(score (
+  (1 nil CARD-P '' '' 190 173)
+))
+
+(TENPOWER (
+  (1 nil CARD-P '' '' 366 113)
+))
+
+(to (
+  (1 nil ((last 1 607 305)) () '' 500 280)
+))
+
+(very (
+  (1 (ORDIR-P) ((very 1 230 422) (last 1 471 385) (next 1 287 378) (preceding 1 367 431) (previous 1 367 448) (ORDINAL 1 287 342)) () '' 215 441)
+))
+

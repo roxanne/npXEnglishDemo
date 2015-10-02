@@ -1,0 +1,301 @@
+($$ (
+  (1 nil CARDINAL '' '' 138 410)
+  (2 nil CARDINAL '' '' 603 388)
+))
+
+(a (
+  (1 (ORDINAL CARDINAL) ((TENPOWER 1 385 341)) (TENPOWER) '' 337 320)
+  (2 (ORDINAL) ((TENPOWER 2 380 436) (ORD-TENPOWER 1 381 464)) 
+(ORD-TENPOWER TENPOWER) '' 339 429)
+))
+
+(and (
+  (1 nil ((CARDINAL 2 616 335)) (CARDINAL) '' 565 308)
+  (2 nil ((ORDINAL 1 569 420)) (ORDINAL) '' 523 396)
+))
+
+(CARDINAL (
+  (1 (ORDINAL CARDINAL) ((TENPOWER 1 385 365)) (TENPOWER) '' 287 367)
+  (2 nil CARDINAL '' '' 640 348)
+  (3 (ORDINAL) ((TENPOWER 2 380 458) (ORD-TENPOWER 1 381 486)) 
+(ORD-TENPOWER TENPOWER) '' 287 473)
+))
+
+(CARDTEEN (
+  (1 (ORDINAL CARDINAL) CARDINAL '' '' 820 256)
+))
+
+(DECADE (
+  (1 (ORDINAL CARDINAL) ((UNIT 2 117 372) ($$ 1 118 401)) (UNIT) '' 46 
+378)
+  (2 (ORDINAL) ((ORDUNIT 2 117 464)) (ORDUNIT) '' 48 457)
+))
+
+(eight (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '8' '' 10 220)
+))
+
+(eighteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '18' '' 99 242)
+))
+
+(eighteenth (
+  (1 (ORD ORDINAL) ORD '18' '' 497 235)
+))
+
+(eighth (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '8' '' 372 220)
+))
+
+(eightieth (
+  (1 (ORD ORDINAL) ORD '80' '' 644 181)
+))
+
+(eighty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '80' '' 242 183)
+))
+
+(eleven (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '11' '' 100 36)
+))
+
+(eleventh (
+  (1 (ORD ORDINAL) ORD '11' '' 502 36)
+))
+
+(fifteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '15' '' 97 153)
+))
+
+(fifteenth (
+  (1 (ORD ORDINAL) ORD '15' '' 499 151)
+))
+
+(fifth (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '5' '' 370 130)
+))
+
+(fiftieth (
+  (1 (ORD ORDINAL) ORD '50' '' 639 94)
+))
+
+(fifty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '50' '' 242 97)
+))
+
+(first (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '1' '' 371 8)
+))
+
+(five (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '5' '' 17 126)
+))
+
+(fortieth (
+  (1 (ORD ORDINAL) ORD '40' '' 632 65)
+))
+
+(forty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '40' '' 242 68)
+))
+
+(four (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '4' '' 15 97)
+))
+
+(fourteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '14' '' 96 123)
+))
+
+(fourteenth (
+  (1 (ORD ORDINAL) ORD '14' '' 499 123)
+))
+
+(fourth (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '4' '' 369 100)
+))
+
+(hundred (
+  (1 (TENPOWER ORDINAL CARDINAL) TENPOWER '100' '' 791 12)
+))
+
+(hundredth (
+  (1 (ORDINAL ORD-TENPOWER) ORD-TENPOWER '100' '' 797 137)
+))
+
+(million (
+  (1 (TENPOWER ORDINAL CARDINAL) TENPOWER '1000000' '' 800 92)
+))
+
+(millionth (
+  (1 (ORDINAL ORD-TENPOWER) ORD-TENPOWER '1000000' '' 797 203)
+))
+
+(nine (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '9' '' 12 253)
+))
+
+(nineteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '19' '' 99 269)
+))
+
+(nineteenth (
+  (1 (ORD ORDINAL) ORD '19' '' 497 263)
+))
+
+(ninetieth (
+  (1 (ORD ORDINAL) ORD '90' '' 653 213)
+))
+
+(ninety (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '90' '' 253 213)
+))
+
+(ninth (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '9' '' 372 250)
+))
+
+(one (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '1' '' 13 5)
+))
+
+(ORD (
+  (1 (ORDINAL) ORDINAL '' '' 822 321)
+))
+
+(ORD-TENPOWER (
+  (1 (ORDINAL) ORDINAL '' '' 411 485)
+))
+
+(ORDINAL (
+  (1 nil ORDINAL '' '' 588 430)
+))
+
+(ORDUNIT (
+  (1 (ORDINAL) ORDINAL '' '' 820 288)
+  (2 nil ORDINAL '' '' 134 458)
+))
+
+(second (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '2' '' 372 39)
+))
+
+(seven (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '7' '' 10 187)
+))
+
+(seventeen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '17' '' 99 211)
+))
+
+(seventeenth (
+  (1 (ORD ORDINAL) ORD '17' '' 498 207)
+))
+
+(seventh (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '7' '' 371 190)
+))
+
+(seventieth (
+  (1 (ORD ORDINAL) ORD '70' '' 629 151)
+))
+
+(seventy (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '70' '' 242 155)
+))
+
+(six (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '6' '' 20 155)
+))
+
+(sixteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '16' '' 100 182)
+))
+
+(sixteenth (
+  (1 (ORD ORDINAL) ORD '16' '' 499 179)
+))
+
+(sixth (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '6' '' 371 160)
+))
+
+(sixtieth (
+  (1 (ORD ORDINAL) ORD '60' '' 639 123)
+))
+
+(sixty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '60' '' 242 126)
+))
+
+(ten (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '10' '' 100 7)
+))
+
+(TENPOWER (
+  (1 (ORDINAL CARDINAL) ((and 1 528 335) (CARDINAL 2 566 355) ($$ 2 547 
+375)) (CARDINAL) '' 420 349)
+  (2 (ORDINAL) ((and 2 502 420) (ORDINAL 1 534 437)) (ORDINAL) '' 409 430)
+))
+
+(tenth (
+  (1 (ORD ORDINAL) ORD '10' '' 501 8)
+))
+
+(third (
+  (1 (ORDUNIT ORDINAL) ORDUNIT '3' '' 371 70)
+))
+
+(thirteen (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '13' '' 97 94)
+))
+
+(thirteenth (
+  (1 (ORD ORDINAL) ORD '13' '' 500 94)
+))
+
+(thirtieth (
+  (1 (ORD ORDINAL) ORD '30' '' 630 33)
+))
+
+(thirty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '30' '' 242 38)
+))
+
+(thousand (
+  (1 (TENPOWER ORDINAL CARDINAL) TENPOWER '1000' '' 796 52)
+))
+
+(thousandth (
+  (1 (ORDINAL ORD-TENPOWER) ORD-TENPOWER '1000' '' 796 170)
+))
+
+(three (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '3' '' 8 65)
+))
+
+(twelfth (
+  (1 (ORD ORDINAL) ORD '12' '' 501 66)
+))
+
+(twelve (
+  (1 (CARDTEEN ORDINAL CARDINAL) CARDTEEN '12' '' 97 66)
+))
+
+(twentieth (
+  (1 (ORD ORDINAL) ORD '20' '' 630 5)
+))
+
+(twenty (
+  (1 (DECADE ORDINAL CARDINAL) DECADE '20' '' 242 7)
+))
+
+(two (
+  (1 (UNIT ORDINAL CARDINAL) UNIT '2' '' 14 36)
+))
+
+(UNIT (
+  (1 (ORDINAL CARDINAL) CARDINAL '' '' 250 262)
+  (2 nil CARDINAL '' '' 136 353)
+))
+

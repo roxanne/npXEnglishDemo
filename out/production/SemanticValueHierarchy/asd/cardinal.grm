@@ -1,0 +1,164 @@
+($$ (
+  (1 nil CARDINAL 'valueOfV' '' 586 200)
+  (2 nil CARDINAL 'valueOfVTimesM' '' 342 388)
+))
+
+(, (
+  (1 nil ((CARDINAL 2 401 321) (and 1 368 294)) (CARDINAL) '' 319 287)
+))
+
+(- (
+  (1 nil ((UNIT 2 565 143)) (UNIT) '' 535 116)
+))
+
+(and (
+  (1 nil ((CARDINAL 2 455 321)) (CARDINAL) '' 409 287)
+))
+
+(CARDINAL (
+  (1 (CARDINAL) ((MULTIPLIER 1 157 349)) (MULTIPLIER) 'setVNodeValue' 57 342)
+  (2 nil CARDINAL 'valueOfVTimesMPlusV2' 'cardinal_2_action' 474 342)
+))
+
+(DECADE (
+  (1 (CARDINAL) ((UNIT 2 542 163) ($$ 1 542 185) (- 1 517 143)) (UNIT) 'setVNodeValue' 447 156)
+))
+
+(eight (
+  (1 (UNIT CARDINAL) UNIT '8' '' 10 220)
+))
+
+(eighteen (
+  (1 (CARDINAL) CARDINAL '18' '' 123 244)
+))
+
+(eighty (
+  (1 (DECADE CARDINAL) DECADE '80' '' 300 179)
+))
+
+(eleven (
+  (1 (CARDINAL) CARDINAL '11' '' 128 37)
+))
+
+(fifteen (
+  (1 (CARDINAL) CARDINAL '15' '' 130 156)
+))
+
+(fifty (
+  (1 (DECADE CARDINAL) DECADE '50' '' 299 94)
+))
+
+(five (
+  (1 (UNIT CARDINAL) UNIT '5' '' 17 126)
+))
+
+(forty (
+  (1 (DECADE CARDINAL) DECADE '40' '' 295 65)
+))
+
+(four (
+  (1 (UNIT CARDINAL) UNIT '4' '' 15 97)
+))
+
+(fourteen (
+  (1 (CARDINAL) CARDINAL '14' '' 122 127)
+))
+
+(hundred (
+  (1 (MULTIPLIER) MULTIPLIER '100' '' 439 7)
+))
+
+(million (
+  (1 (MULTIPLIER) MULTIPLIER '1000000' '' 440 64)
+))
+
+(MULTIPLIER (
+  (1 nil ((and 1 338 321) (CARDINAL 2 371 349) ($$ 2 305 372) (, 1 293 321)) (CARDINAL) 'multiplier_1_action' 194 342)
+))
+
+(nine (
+  (1 (UNIT CARDINAL) UNIT '9' '' 12 253)
+))
+
+(nineteen (
+  (1 (CARDINAL) CARDINAL '19' '' 124 271)
+))
+
+(ninety (
+  (1 (DECADE CARDINAL) DECADE '90' '' 300 207)
+))
+
+(one (
+  (1 (UNIT CARDINAL) UNIT '1' '' 13 5)
+))
+
+(seven (
+  (1 (UNIT CARDINAL) UNIT '7' '' 10 187)
+))
+
+(seventeen (
+  (1 (CARDINAL) CARDINAL '17' '' 114 213)
+))
+
+(seventy (
+  (1 (DECADE CARDINAL) DECADE '70' '' 299 151)
+))
+
+(six (
+  (1 (UNIT CARDINAL) UNIT '6' '' 20 155)
+))
+
+(sixteen (
+  (1 (CARDINAL) CARDINAL '16' '' 129 186)
+))
+
+(sixty (
+  (1 (DECADE CARDINAL) DECADE '60' '' 300 122)
+))
+
+(ten (
+  (1 (CARDINAL) CARDINAL '10' '' 127 7)
+))
+
+(thirteen (
+  (1 (CARDINAL) CARDINAL '13' '' 121 96)
+))
+
+(thirty (
+  (1 (DECADE CARDINAL) DECADE '30' '' 294 35)
+))
+
+(thousand (
+  (1 (MULTIPLIER) MULTIPLIER '1000' '' 439 34)
+))
+
+(three (
+  (1 (UNIT CARDINAL) UNIT '3' '' 8 65)
+))
+
+(twelve (
+  (1 (CARDINAL) CARDINAL '12' '' 128 67)
+))
+
+(twenty (
+  (1 (DECADE CARDINAL) DECADE '20' '' 293 6)
+))
+
+(two (
+  (1 (UNIT CARDINAL) UNIT '2' '' 14 36)
+))
+
+(UNIT (
+  (1 (CARDINAL) CARDINAL 'nodeValue' '' 450 221)
+  (2 nil CARDINAL 'valueOfV' 'unit_2_action' 586 156)
+))
+
+(UNKNOWN (
+  (1 (UNKNOWNWORD CARDINAL) UNKNOWNWORD '' '' 30 434)
+))
+
+(UNKNOWNWORD (
+  (1 (CARDINAL) CARDINAL 'valueOfV' 'UNKNOWNCARDINAL_action' 252 434)
+))
+
+

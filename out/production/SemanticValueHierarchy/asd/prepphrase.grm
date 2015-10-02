@@ -1,0 +1,350 @@
+($$ (
+  (1 nil PREP '' '' 872 84)
+  (2 nil PREP-P '' '' 131 143)
+))
+
+(aboard (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 16 57)
+))
+
+(about (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 169 50)
+))
+
+(above (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 18 116)
+))
+
+(across (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 858 246) ($$ 1 863 161)) () '' 808 224)
+))
+
+(after (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 855 370)
+))
+
+(against (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 859 483)
+))
+
+(alike (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((unto 2 622 80)) () '' 341 97)
+))
+
+(along (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((with 1 574 408) (from 2 573 370) (to 2 579 447) (beside 1 539 314)) (to) '' 247 473)
+))
+
+(alongside (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 758 112) ($$ 1 756 67)) () '' 579 37)
+))
+
+(among (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 870 210)
+))
+
+(around (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 460 318) (to 2 465 395) ($$ 1 464 233) (about 1 113 216) (beside 1 425 262)) (to) '' 11 369)
+))
+
+(as (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 741 236)
+))
+
+(at (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 16 241)
+))
+
+(athwart (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 14 274)
+))
+
+(atop (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 708 126) ($$ 1 706 81)) () '' 510 64)
+))
+
+(back (
+  (1 nil ((of 2 645 237)) () '' 381 286)
+))
+
+(before (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 14 305)
+))
+
+(behind (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 804 239) ($$ 1 802 194) (next 1 625 394)) () '' 689 290)
+))
+
+(below (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 346 422)
+))
+
+(beneath (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 12 334)
+))
+
+(beside (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 857 164) ($$ 1 855 119)) () '' 794 141)
+))
+
+(besides (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 350 385)
+))
+
+(between (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 369 263)
+))
+
+(beyond (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 590 201) ($$ 1 595 116)) () '' 271 135)
+))
+
+(but (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 13 368)
+))
+
+(by (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 13 397)
+))
+
+(cahoots (
+  (1 nil ((with 1 673 308)) () '' 430 273)
+))
+
+(close (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((to 2 464 422) (behind 1 372 364) (beside 1 424 289)) (to) '' 18 424)
+))
+
+(COMMA-COORD (
+  (1 nil ((PREP2 1 91 119)) (PREP2) '' 31 82)
+))
+
+(conjunction (
+  (1 nil ((with 1 674 327)) () '' 413 311)
+))
+
+(coordination (
+  (1 nil ((with 1 677 340)) () '' 413 338)
+))
+
+(despite (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 10 427)
+))
+
+(down (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 645 377) (to 2 651 454) ($$ 1 650 292) (with 1 646 415) (among 1 649 355)) (to) '' 391 487)
+))
+
+(during (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 11 457)
+))
+
+(except (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((for 2 738 16) ($$ 1 735 49)) () '' 554 1)
+))
+
+(exchange (
+  (1 nil ((for 2 695 29)) () '' 452 26)
+))
+
+(far (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 806 302) (across 1 779 287)) () '' 728 337)
+))
+
+(for (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 10 489)
+  (2 nil PREP '' '' 877 18)
+))
+
+(from (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 186 60)
+  (2 nil PREP '' '' 863 254)
+))
+
+(front (
+  (1 nil ((of 2 638 255)) () '' 368 323)
+))
+
+(in (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((spite 1 254 339) (lieu 1 256 356) (relation 1 250 372) (front 1 253 323) (back 1 259 304) ($$ 1 505 203) (underneath 1 191 216) (under 1 164 358) (conjunction 1 275 317) (coordination 1 275 330) (cahoots 1 284 298) (league 1 286 347) (exchange 1 295 174)) () '' 122 309)
+))
+
+(inside (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 589 197) ($$ 1 587 152) (from 2 583 237)) () '' 263 207)
+))
+
+(inspite (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 677 208)) () '' 435 229)
+))
+
+(into (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 186 92)
+))
+
+(league (
+  (1 nil ((with 1 671 357)) () '' 435 371)
+))
+
+(lieu (
+  (1 nil ((of 2 638 288)) () '' 374 389)
+))
+
+(like (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((unto 2 617 107) ($$ 1 618 124)) () '' 338 151)
+))
+
+(near (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 569 342) (to 2 574 418) ($$ 1 573 257)) (to) '' 243 416)
+))
+
+(next (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((to 2 711 452) (after 1 701 434)) (to) '' 517 484)
+))
+
+(not (
+  (1 (PREP2 PREP-P PREPPHRASE) ((PREP 1 72 48)) (PREP) '' 32 41)
+))
+
+(notwithstanding (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 601 189) ($$ 1 599 144)) () '' 230 190)
+))
+
+(NP (
+  (1 nil PREPPHRASE '' '' 121 188)
+))
+
+(of (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 187 124)
+  (2 nil PREP '' '' 876 174)
+))
+
+(off (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 614 223) (from 2 607 263) (with 1 608 301) (to 2 613 340)) (to) '' 331 259)
+))
+
+(on (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((top 1 369 208) ($$ 1 614 142)) () '' 336 186)
+))
+
+(onto (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 186 153)
+))
+
+(opposite (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 556 260) (to 2 561 337) ($$ 1 560 175)) (to) '' 194 253)
+))
+
+(other (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((than 1 678 62)) () '' 620 55)
+))
+
+(out (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 617 112) ($$ 1 615 67) (from 2 611 152) (among 1 614 130)) () '' 335 37)
+))
+
+(outside (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 584 173) ($$ 1 582 128) (from 2 578 213)) () '' 245 159)
+))
+
+(over (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 539 306) (to 2 544 382) ($$ 1 543 221) (against 1 537 420) (across 1 511 291)) (to) '' 184 344)
+))
+
+(past (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 185 181)
+))
+
+(PREP (
+  (1 (PREP2 PREP-P PREPPHRASE) PREP2 '' '' 89 41)
+))
+
+(PREP-P (
+  (1 (PREPPHRASE) ((NP 1 105 195)) () '' 40 188)
+))
+
+(PREP2 (
+  (1 (PREP-P PREPPHRASE) ((COMMA-COORD 1 64 119) ($$ 2 114 149)) () '' 54 142)
+))
+
+(relation (
+  (1 nil ((to 2 642 421)) (to) '' 362 421)
+))
+
+(round (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 184 209)
+))
+
+(similar (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((to 2 857 441)) (to) '' 795 462)
+))
+
+(since (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 184 238)
+))
+
+(spite (
+  (1 nil ((of 2 640 271)) () '' 371 355)
+))
+
+(than (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 700 55)
+))
+
+(through (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 557 355) (to 2 563 432) ($$ 1 562 270)) (to) '' 202 443)
+))
+
+(throughout (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 185 266)
+))
+
+(till (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 184 296)
+))
+
+(to (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 185 325)
+  (2 nil PREP '' '' 874 407)
+))
+
+(top (
+  (1 nil ((of 2 641 202) ($$ 1 639 157)) () '' 383 216)
+))
+
+(toward (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 185 353)
+))
+
+(under (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 190 393)
+))
+
+(underneath (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((of 2 596 148) ($$ 1 594 103)) () '' 245 109)
+))
+
+(until (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 182 410)
+))
+
+(unto (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 347 310)
+  (2 nil PREP '' '' 870 50)
+))
+
+(up (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) ((from 2 803 375) (to 2 809 452) ($$ 1 808 290) (with 1 804 413) (against 1 801 490) (across 1 776 360)) (to) '' 724 483)
+))
+
+(with (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 864 329)
+))
+
+(within (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 182 494)
+))
+
+(without (
+  (1 (PREP PREP2 PREP-P PREPPHRASE) PREP '' '' 182 467)
+))
+

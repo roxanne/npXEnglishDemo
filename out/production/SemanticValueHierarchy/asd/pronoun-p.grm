@@ -1,0 +1,172 @@
+(all (
+  (1 (PRONOUN-P) ((PRON2 1 514 87) (PRON1 1 514 105)) (PRON2 PRON1) '' 440 98)
+))
+
+(another (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 16 58)
+))
+
+(any (
+))
+
+(APPROX (
+  (1 (PRONOUN-P) ((none 1 411 160) (all 1 412 132)) () '' 329 153)
+))
+
+(both (
+  (1 (PRONOUN-P) ((PRON2 1 516 70)) (PRON2) '' 432 63)
+))
+
+(COMMA-COORD (
+))
+
+(each (
+))
+
+(he (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 17 259)
+))
+
+(her (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 12 352)
+))
+
+(hers (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 186 349)
+))
+
+(herself (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 331 271)
+))
+
+(him (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 16 290)
+))
+
+(himself (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 329 304)
+))
+
+(his (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 194 316)
+))
+
+(I (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 17 166)
+))
+
+(it (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 15 384)
+))
+
+(its (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 196 417)
+))
+
+(itself (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 327 335)
+))
+
+(me (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 16 197)
+))
+
+(mine (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 189 219)
+))
+
+(myself (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 330 203)
+))
+
+(none (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 438 153)
+))
+
+(one (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 18 127)
+))
+
+(ours (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 188 251)
+))
+
+(ourselves (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 502 201)
+))
+
+(PRON1 (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 570 98)
+))
+
+(PRON2 (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 570 63)
+))
+
+(PRONOUN-P (
+))
+
+(she (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 15 320)
+))
+
+(some (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 15 94)
+))
+
+(that (
+  (1 (PRONOUN-P PRON1) PRON1 '' '' 193 57)
+))
+
+(theirs (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 180 382)
+))
+
+(them (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 186 183)
+))
+
+(themselves (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 500 267)
+))
+
+(these (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 186 119)
+))
+
+(they (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 14 476)
+))
+
+(this (
+  (1 (PRONOUN-P PRON1) PRON1 '' '' 195 86)
+))
+
+(those (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 185 150)
+))
+
+(us (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 16 446)
+))
+
+(we (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 17 415)
+))
+
+(you (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 15 230)
+))
+
+(yours (
+  (1 (PRONOUN-P PRON2) PRON2 '' '' 183 284)
+))
+
+(yourself (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 331 236)
+))
+
+(yourselves (
+  (1 (PRONOUN-P) PRONOUN-P '' '' 500 236)
+))
+

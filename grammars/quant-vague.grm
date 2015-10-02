@@ -1,0 +1,136 @@
+($$ (
+  (1 nil QUANT-VAGUE 'quant_vague_$$_1_v' '' 490 56)
+  (2 nil QUANT-VAGUE-N 'quant_vague_$$_2_v' '' 596 129)
+  (3 nil QUANT-VAGUE 'quant_vague_$$_3_v' '' 766 331)
+  (4 nil QUANT-VAGUE 'quant_vague_$$_4_v' '' 194 482)
+))
+
+(a (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((QUANTITY-NP 1 743 208) (QUANTITY-P 1 742 237)) () 'quant_vague_a_1' 717 221)
+  (2 nil ((few 3 142 423) (bit 2 143 439) (little 4 113 455)) () '' 80 416)
+))
+
+(ADJ-OR-NOUN-QUANT (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ((THRESH-POST 1 473 39) ($$ 1 474 56)) () 'quant_vague_ADJ_OR_NOUN_QUANT_1' 327 42)
+))
+
+(and (
+  (1 nil ((QUANT-VAGUE-N-LARGE 1 514 114)) (QUANT-VAGUE-N-LARGE) '' 588 86)
+))
+
+(bags (
+  (1 (QUANT-VAGUE-N-LARGE QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N-LARGE 'quant_vague_bags_1_v' '' 11 204)
+))
+
+(bit (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N 'quant_vague_bit_1_v' '' 387 220)
+  (2 nil QUANT-VAGUE-N 'quant_vague_bit_2_v' '' 193 449)
+))
+
+(couple (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) QUANT-VAGUE 'quant_vague_couple_1_v' '' 13 337)
+))
+
+(enough (
+  (1 (QUANT-VAGUE-P) QUANT-VAGUE-P 'quant_vague_enough_1_v' '' 340 92)
+))
+
+(few (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ADJ-OR-NOUN-QUANT 'quant_vague_few_1_v' '' 13 17)
+  (2 nil QUANT-VAGUE 'quant_vague_few_2_v' '' 765 270)
+  (3 nil QUANT-VAGUE 'quant_vague_few_3_v' '' 191 416)
+))
+
+(GRADER-P (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ((ADJ-OR-NOUN-QUANT 1 309 115) (enough 1 316 140) (whole 1 308 182) (little 2 307 204)) (ADJ-OR-NOUN-QUANT) 'quant_vague_GRADER_P_1' 227 175)
+))
+
+(heaps (
+  (1 (QUANT-VAGUE-N-LARGE QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N-LARGE 'quant_vague_heaps_1_v' '' 11 238)
+))
+
+(little (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ADJ-OR-NOUN-QUANT 'quant_vague_little_1_v' '' 13 48)
+  (2 (QUANT-VAGUE-NP QUANT-VAGUE-N) ((bit 1 369 227)) () '' 322 220)
+  (3 nil QUANT-VAGUE 'quant_vague_little_3_v' '' 765 301)
+  (4 nil ((bit 2 178 472) ($$ 4 178 488)) () '' 133 481)
+))
+
+(lot (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N 'quant_vague_lot_1_v' '' 415 175)
+))
+
+(lots (
+  (1 (QUANT-VAGUE-N-LARGE QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N-LARGE 'quant_vague_lots_1_v' '' 12 270)
+))
+
+(many (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ADJ-OR-NOUN-QUANT 'quant_vague_many_1_v' '' 13 76)
+))
+
+(much (
+  (1 (ADJ-OR-NOUN-QUANT QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ADJ-OR-NOUN-QUANT 'quant_vague_much_1_v' '' 12 106)
+))
+
+(piles (
+  (1 (QUANT-VAGUE-N-LARGE QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N-LARGE 'quant_vague_piles_1_v' '' 12 303)
+))
+
+(QUANT-VAGUE (
+  (1 (QUANT-VAGUE-P) QUANT-VAGUE-P 'quant_vague_QUANT_VAGUE_1_v' '' 755 70)
+  (2 (QUANT-VAGUE-NP QUANT-VAGUE-N) ((tons 1 116 381)) () 'quant_vague_QUANT_VAGUE_2' 10 374)
+))
+
+(QUANT-VAGUE-N (
+  (1 (QUANT-VAGUE-NP) QUANT-VAGUE-NP 'quant_vague_QUANT_VAGUE_N_1_v' '' 754 35)
+))
+
+(QUANT-VAGUE-N-LARGE (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-N) ((and 1 572 114) ($$ 2 576 136)) () 'quant_vague_QUANT_VAGUE_N_LARGE_1' 414 129)
+))
+
+(QUANTITY-NP (
+  (1 nil QUANT-VAGUE-NP 'quant_vague_QUANTITY_NP_1_v' '' 756 181)
+))
+
+(QUANTITY-P (
+  (1 nil QUANT-VAGUE-P 'quant_vague_QUANTITY_P_1_v' '' 755 239)
+))
+
+(quite (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ((a 2 64 422)) () '' 15 415)
+  (2 (QUANT-VAGUE QUANT-VAGUE-NP QUANT-VAGUE-P QUANT-VAGUE-N) ((a 1 679 252) (some 1 667 276)) () 'quant_vague_quite_2' 608 269)
+))
+
+(rather (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 682 267)) () 'quant_vague_rather_1' 607 299)
+))
+
+(several (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) QUANT-VAGUE 'quant_vague_several_1_v' '' 12 137)
+))
+
+(some (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE QUANT-VAGUE-P QUANT-VAGUE-N) ((few 2 748 276) (little 3 748 292) ($$ 3 748 307)) () '' 693 269)
+))
+
+(such (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 680 222) (QUANTITY-NP 1 699 202)) () 'quant_vague_such_1' 609 209)
+))
+
+(THRESH-POST (
+  (1 nil QUANT-VAGUE 'quant_vague_THRESH_POST_1_v' '' 489 23)
+))
+
+(tons (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-N) QUANT-VAGUE-N 'quant_vague_tons_1_v' '' 133 374)
+))
+
+(what (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-P) ((a 1 680 237) (QUANTITY-NP 1 699 217) (QUANTITY-P 1 699 246)) () 'quant_vague_what_1' 609 239)
+))
+
+(whole (
+  (1 (QUANT-VAGUE-NP QUANT-VAGUE-N) ((lot 1 389 182) (QUANT-VAGUE-N-LARGE 1 389 159)) (QUANT-VAGUE-N-LARGE) '' 324 175)
+))
+

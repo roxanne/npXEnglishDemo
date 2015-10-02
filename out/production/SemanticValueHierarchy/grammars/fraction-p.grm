@@ -1,0 +1,165 @@
+(a (
+  (1 (FRACTION-P) ((ORDINAL 1 690 266) (half 1 690 286) (quarter 1 689 308)) () '' 646 279)
+))
+
+(and (
+  (1 (FRACTION-P) ((a 1 615 252) (one 1 614 233) (CARD-P 1 612 191)) () '' 557 212)
+))
+
+(CARD-P (
+  (1 (FRACTION-P) ((ORDINAL-PL 1 717 164) (quarters 1 717 180)) (ORDINAL-PL) '' 641 157)
+  (2 (FRACTION-P) ((and 1 531 219)) () '' 456 212)
+))
+
+(DECADE (
+  (1 (ORDINAL-PL) ((ORDINAL-UNIT-PL 1 705 52) (firsts 1 705 68) (seconds 1 705 85)) (ORDINAL-UNIT-PL) '' 634 45)
+))
+
+(eighteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 39 38)
+))
+
+(eighths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 41 69)
+))
+
+(eightieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 40 100)
+))
+
+(elevenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 40 133)
+))
+
+(fifteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 40 165)
+))
+
+(fifths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 38 195)
+))
+
+(fiftieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 38 226)
+))
+
+(firsts (
+  (1 nil ORDINAL-PL '' '' 725 78)
+))
+
+(fortieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 39 258)
+))
+
+(fourteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 36 292)
+))
+
+(fourths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 35 323)
+))
+
+(half (
+  (1 (FRACTION-P) FRACTION-P '' '' 721 279)
+))
+
+(hundredths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 438 39)
+))
+
+(millionths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 438 72)
+))
+
+(ninteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 34 355)
+))
+
+(ninths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 33 386)
+))
+
+(nintieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 34 417)
+))
+
+(one (
+  (1 (FRACTION-P) ((ORDINAL 1 696 247) (half 1 696 266) (quarter 1 696 289)) () '' 645 240)
+))
+
+(ORDINAL (
+  (1 nil FRACTION-P '' '' 721 240)
+))
+
+(ORDINAL-PL (
+  (1 nil FRACTION-P '' '' 743 157)
+))
+
+(ORDINAL-UNIT-PL (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 724 45)
+))
+
+(quarter (
+  (1 (FRACTION-P) FRACTION-P '' '' 720 324)
+))
+
+(quarters (
+  (1 nil FRACTION-P '' '' 743 189)
+))
+
+(seconds (
+  (1 nil ORDINAL-PL '' '' 725 112)
+))
+
+(seventeenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 232 39)
+))
+
+(sevenths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 231 72)
+))
+
+(seventieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 232 106)
+))
+
+(sixteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 230 136)
+))
+
+(sixths (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 231 167)
+))
+
+(sixtieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 229 198)
+))
+
+(tenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 230 229)
+))
+
+(thirds (
+  (1 (ORDINAL-PL ORDINAL-UNIT-PL) ORDINAL-UNIT-PL '' '' 230 259)
+))
+
+(thirteenths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 230 289)
+))
+
+(thirtieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 230 320)
+))
+
+(thousandths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 437 106)
+))
+
+(twelfths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 228 351)
+))
+
+(twentieths (
+  (1 (ORDINAL-PL) ORDINAL-PL '' '' 228 382)
+))
+

@@ -1,0 +1,93 @@
+(absolutely (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_absolutely_1_v' '' 436 21)
+))
+
+(certainly (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_certainly_1_v' '' 436 58)
+))
+
+(clearly (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_clearly_1_v' '' 434 97)
+))
+
+(definitely (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_definitely_1_v' '' 435 134)
+))
+
+(enough (
+  (1 (THRESH-POST) THRESH-POST 'grader1_enough_1_v' '' 202 263)
+))
+
+(excessively (
+  (1 (GRADER-LY) GRADER-LY 'grader1_excessively_1_v' '' 202 22)
+))
+
+(extremely (
+  (1 (GRADER-LY) GRADER-LY 'grader1_extremely_1_v' '' 201 57)
+))
+
+(fairly (
+  (1 (GRADER) GRADER 'grader1_fairly_1_v' '' 23 19)
+))
+
+(how (
+  (1 (GRADER) GRADER 'grader1_how_1_v' '' 21 55)
+))
+
+(however (
+  (1 (GRADER) GRADER 'grader1_however_1_v' '' 19 90)
+))
+
+(incredibly (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_incredibly_1_v' '' 637 20)
+  (2 (GRADER-LY) GRADER-LY 'grader1_incredibly_2_v' '' 203 92)
+))
+
+(moderately (
+  (1 (GRADER-LY) GRADER-LY 'grader1_moderately_1_v' '' 202 127)
+))
+
+(most (
+  (1 (GRADER) GRADER 'grader1_most_1_v' '' 20 126)
+))
+
+(obviously (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_obviously_1_v' '' 637 56)
+))
+
+(possibly (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_possibly_1_v' '' 433 171)
+))
+
+(probably (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_probably_1_v' '' 432 208)
+))
+
+(quite (
+  (1 (GRADER) GRADER 'grader1_quite_1_v' '' 20 160)
+))
+
+(rather (
+  (1 (GRADER) GRADER 'grader1_rather_1_v' '' 19 194)
+))
+
+(relatively (
+  (1 (GRADER) GRADER 'grader1_relatively_1_v' '' 18 228)
+))
+
+(slightly (
+  (1 (GRADER-LY) GRADER-LY 'grader1_slightly_1_v' '' 202 159)
+))
+
+(somewhat (
+  (1 (GRADER) GRADER 'grader1_somewhat_1_v' '' 17 263)
+))
+
+(sufficiently (
+  (1 (GRADER-LY) GRADER-LY 'grader1_sufficiently_1_v' '' 202 193)
+))
+
+(surprisingly (
+  (1 (QUALIFIER-LY) QUALIFIER-LY 'grader1_surprisingly_1_v' '' 636 94)
+))
+

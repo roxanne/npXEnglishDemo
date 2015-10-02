@@ -1,0 +1,120 @@
+($$ (
+  (1 nil GRADER 'grader2_$$_1_v' '' 483 102)
+  (2 nil GRADER-LY 'grader2_$$_2_v' '' 108 135)
+  (3 nil GRADER 'grader2_$$_3_v' '' 129 221)
+  (4 nil GRADER1 'grader2_$$_4_v' '' 905 78)
+  (5 nil QUALIFIER1 'grader2_$$_5_v' '' 897 151)
+  (6 nil NEGQUALIFIER 'grader2_$$_6_v' '' 559 234)
+  (7 nil GRADER 'grader2_$$_7_v' '' 796 245)
+  (8 nil NEGATIVE 'grader2_$$_8_v' '' 181 372)
+  (9 nil GRADER-P 'grader2_$$_9_v' '' 870 405)
+  (10 nil QUALIFIER-P 'grader2_$$_10_v' '' 870 437)
+  (11 nil ((so 2 593 287) (too 2 589 314) (very 2 651 314)) () '' 552 295)
+))
+
+(, (
+  (1 nil ((very 1 389 145)) () '' 416 158)
+  (2 nil ((far 1 85 130)) () '' 104 101)
+  (3 nil ((way 1 92 209)) () '' 116 184)
+  (4 nil ((too 1 268 153)) () '' 280 126)
+  (5 nil ((so 1 303 81)) () '' 325 64)
+  (6 nil ((really 1 332 195)) () '' 356 202)
+))
+
+(all (
+  (1 nil ATALL '' '' 103 283)
+))
+
+(at (
+  (1 (ATALL) ((all 1 90 289)) () '' 60 282)
+))
+
+(ATALL (
+  (1 nil (($$ 8 167 364)) () 'grader2_ATALL' 110 343)
+  (2 nil (($$ 9 856 396)) () 'grader2_ATALL' 800 373)
+  (3 nil (($$ 10 855 461)) () 'grader2_ATALL' 798 472)
+))
+
+(exactly (
+  (1 nil (($$ 8 169 410)) () '' 110 434)
+))
+
+(far (
+  (1 (GRADER1 QUALIFIER1 GRADER-P GRADER-LY QUALIFIER-P) ((far 1 69 127) (, 2 92 130) ($$ 2 94 147)) () 'grader2_far_1' 58 146)
+))
+
+(GRADER (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) GRADER1 'grader2_GRADER_1_v' '' 52 20)
+))
+
+(GRADER-LY (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((THRESH-POST 1 772 49) ($$ 4 831 72)) () 'grader2_GRADER_LY_1' 687 53)
+))
+
+(GRADER-P (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((GRADER-LY 1 668 59)) (GRADER-LY) 'grader2_GRADER_P_1' 585 52)
+  (2 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((QUALIFIER-LY 1 663 157)) () 'grader2_GRADER_P_2' 583 150)
+))
+
+(GRADER1 (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((ATALL 2 785 396) ($$ 9 820 412)) (ATALL) 'grader2_GRADER1_1' 710 405)
+))
+
+(NEGATIVE (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P NEGQUALIFIER QUALIFIER-P) (($$ 11 534 271) ($$ 6 538 241)) () 'grader2_NEGATIVE_1' 455 234)
+))
+
+(NEGQUALIFIER (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) QUALIFIER1 'grader2_NEGQUALIFIER_1_v' '' 284 428)
+))
+
+(not (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P NEGATIVE NEGQUALIFIER QUALIFIER-P) ((ATALL 1 96 364) (exactly 1 96 410) (really 2 98 393) ($$ 8 131 379)) (ATALL) 'grader2_not_1' 58 372)
+))
+
+(QUALIFIER (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) QUALIFIER-P 'grader2_QUALIFIER_1_v' '' 52 56)
+))
+
+(QUALIFIER-LY (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((THRESH-POST 2 773 175) ($$ 5 829 158)) () 'grader2_QUALIFIER_LY_1' 678 151)
+))
+
+(QUALIFIER-P (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((GRADER1 1 652 411) (QUALIFIER1 1 649 427)) (GRADER1 QUALIFIER1) 'grader2_QUALIFIER_P_1' 518 404)
+))
+
+(QUALIFIER1 (
+  (1 (GRADER1 QUALIFIER1 GRADER-P QUALIFIER-P) ((ATALL 3 787 461) ($$ 10 823 444)) (ATALL) 'grader2_QUALIFIER1_1' 704 437)
+))
+
+(really (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P QUALIFIER-P) ((, 6 346 195) ($$ 1 409 145) (very 1 344 153)) () 'grader2_really_1' 299 174)
+  (2 nil (($$ 8 166 393)) () '' 114 400)
+  (3 nil ((very 2 708 338)) () '' 656 343)
+))
+
+(so (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P QUALIFIER-P) ((so 1 283 66) (, 5 309 81) (very 1 323 109) ($$ 1 388 100) (really 1 296 136)) () 'grader2_so_1' 273 85)
+  (2 nil ((really 3 642 311) (very 2 675 299) ($$ 7 712 262)) () 'grader2_so_2' 608 265)
+))
+
+(THRESH-POST (
+  (1 nil (($$ 4 889 62)) () 'grader2_THRESH_POST_1' 786 32)
+  (2 nil (($$ 5 885 175)) () 'grader2_THRESH_POST_2' 786 185)
+))
+
+(too (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P QUALIFIER-P) ((too 1 259 147) (, 4 275 153) (very 1 312 149) ($$ 1 377 141) (really 1 285 177)) () 'grader2_too_1' 247 166)
+  (2 nil ((really 3 639 338) (very 2 673 326) ($$ 7 709 289)) () 'grader2_too_2' 599 319)
+))
+
+(very (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P QUALIFIER-P) ((, 1 399 145) (very 1 368 100) ($$ 1 433 117)) () 'grader2_very_1' 353 119)
+  (2 nil (($$ 7 774 289)) () 'grader2_very_2' 723 320)
+))
+
+(way (
+  (1 (GRADER1 GRADER QUALIFIER1 GRADER-P QUALIFIER-P) ((way 1 73 201) (, 3 102 209) ($$ 3 108 227)) () 'grader2_way_1' 59 220)
+))
+

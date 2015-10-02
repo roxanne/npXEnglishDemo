@@ -1,0 +1,267 @@
+($$ (
+  (1 nil NOUN2 '' '' 585 486)
+  (2 nil NOUN-P '' '' 831 468)
+))
+
+(back (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 32 11)
+))
+
+(baker (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 122 59)
+))
+
+(bakers (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 34 84)
+))
+
+(banana (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 35 44)
+  (2 nil NOUN '' '' 771 186)
+))
+
+(behind (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 118 103)
+))
+
+(beyond (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 25 126)
+))
+
+(bit (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 123 144)
+))
+
+(child (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 27 165)
+  (2 nil NOUN '' '' 746 297)
+))
+
+(children (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 29 212)
+  (2 nil NOUN '' '' 746 336)
+))
+
+(close (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 24 259)
+))
+
+(COMMA-COORD (
+  (1 nil ((NOUN2 1 777 450)) (NOUN2) '' 716 418)
+))
+
+(deal (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 25 300)
+))
+
+(deserts (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 23 344)
+  (2 nil NOUN '' '' 746 370)
+))
+
+(door (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 125 368)
+))
+
+(down (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 23 389)
+))
+
+(fiddle (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 22 433)
+  (2 nil NOUN '' '' 772 153)
+))
+
+(first (
+  (1 (NOUN-P NOUN2 NOUN) ((lady 2 737 24) (minister 2 738 41) (nighter 2 738 58) (person 2 739 75)) () '' 678 17)
+))
+
+(firsts (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 19 476)
+))
+
+(fraction (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 215 11)
+))
+
+(front (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 228 44)
+))
+
+(halves (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 227 75)
+))
+
+(inside (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 238 124)
+))
+
+(just (
+  (1 (NOUN-P NOUN2 NOUN) ((deserts 2 726 377)) () '' 680 370)
+))
+
+(lady (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 232 159)
+  (2 nil NOUN '' '' 768 17)
+))
+
+(last (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 228 194)
+))
+
+(like (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 230 230)
+))
+
+(lot (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 230 268)
+))
+
+(minister (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 230 302)
+  (2 nil NOUN '' '' 769 52)
+))
+
+(nighter (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 231 336)
+  (2 nil NOUN '' '' 769 85)
+))
+
+(NOUN (
+  (1 (NOUN-P NOUN2) NOUN2 '' '' 878 372)
+))
+
+(NOUN-P (
+  (1 (NOUN-P NOUN2) ((NOUN-P 2 520 471)) (NOUN-P) '' 494 442)
+  (2 nil ((NOUN-P 1 520 471) ($$ 1 566 493)) (NOUN-P) '' 496 486)
+))
+
+(NOUN2 (
+  (1 (NOUN-P NOUN2) ((COMMA-COORD 1 751 450) ($$ 2 809 475)) () '' 741 468)
+))
+
+(one (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 231 371)
+))
+
+(ones (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 228 404)
+  (2 (NOUN-P NOUN2 NOUN) NOUN '' '' 232 436)
+))
+
+(only (
+  (1 (NOUN-P NOUN2 NOUN) ((child 2 726 304) (children 2 726 323)) () '' 678 297)
+))
+
+(opposite (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 225 482)
+))
+
+(ORDINAL (
+  (1 (NOUN-P NOUN2 NOUN) ((prize 1 751 267)) () '' 677 260)
+))
+
+(others (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 358 10)
+))
+
+(out (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 357 39)
+))
+
+(outside (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 356 71)
+))
+
+(past (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 356 100)
+))
+
+(person (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 356 128)
+  (2 nil NOUN '' '' 771 120)
+))
+
+(prize (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 769 260)
+))
+
+(quarter (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 359 222)
+))
+
+(quarters (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 358 252)
+))
+
+(relation (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 360 280)
+))
+
+(remainder (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 358 310)
+))
+
+(rest (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 361 353)
+))
+
+(round (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 354 394)
+))
+
+(score (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 361 433)
+))
+
+(scores (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 359 472)
+))
+
+(second (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 521 22)
+  (2 (NOUN-P NOUN2 NOUN) ((person 2 746 127) (fiddle 2 747 144) (banana 2 746 160) (string 2 745 177)) () '' 674 121)
+))
+
+(seconds (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 514 62)
+))
+
+(spite (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 517 101)
+))
+
+(string (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 513 147)
+  (2 nil NOUN '' '' 769 220)
+))
+
+(take (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 507 187)
+))
+
+(third (
+  (1 (NOUN-P NOUN2 NOUN) ((person 2 739 159) (string 2 738 209)) () '' 675 185)
+))
+
+(till (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 512 231)
+))
+
+(time (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 508 270)
+))
+
+(times (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 514 314)
+))
+
+(top (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 508 355)
+  (2 (NOUN-P NOUN2 NOUN) ((banana 2 736 210)) () '' 677 221)
+))
+
+(UNKNOWNWORD (
+  (1 (NOUN-P NOUN2 NOUN) NOUN '' '' 496 405)
+))
+

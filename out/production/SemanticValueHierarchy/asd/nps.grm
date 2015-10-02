@@ -1,0 +1,73 @@
+($$ (
+  (1 nil NOUNPHRASE1 'features' '' 581 35)
+  (2 nil NP1 '' '' 655 250)
+  (3 nil NP2 '' '' 900 129)
+  (4 nil NPS '' '' 908 398)
+))
+
+(, (
+  (1 nil ((NOUNPHRASE1 2 437 205)) (NOUNPHRASE1) '' 398 175)
+  (2 nil ((NOUNPHRASE1 2 539 206) ($$ 2 633 220)) (NOUNPHRASE1) '' 603 177)
+))
+
+(all (
+  (1 (NP NPS) ((NP2 1 708 384)) (NP2) '' 675 356)
+))
+
+(APPROX (
+  (1 (NP NPS) ((all 1 655 362)) () '' 580 355)
+))
+
+(ATTITUDE-P (
+  (1 (NP2 NOUNPHRASE1 NP NPS NP1) ((NOUNP0 1 350 41)) (NOUNP0) '' 260 34)
+  (2 (NP NPS) ((APPROX 1 570 383) (NP2 1 641 405) (all 1 617 384) (both 1 595 429)) (NP2) '' 487 398)
+))
+
+(both (
+  (1 (NP NPS) ((NP2 1 691 429)) (NP2) '' 630 446)
+))
+
+(COMMA-COORD (
+  (1 nil ((NP1 3 867 106)) (NP1) '' 802 69)
+))
+
+(NOUNP0 (
+  (1 (NP2 NOUNPHRASE1 NP NPS NP1) ((POSTDESCRIP-P 1 437 60) ($$ 1 501 42)) () '' 368 35)
+))
+
+(NOUNPHRASE0 (
+  (1 (NP2 NOUNPHRASE1 NP NPS NOUNP0 NP1) NOUNP0 '' '' 22 95)
+))
+
+(NOUNPHRASE1 (
+  (1 (NP2 NP NPS NP1) ((, 1 384 220) ($$ 2 513 257) (NOUNPHRASE1 2 419 243)) (NOUNPHRASE1) '' 278 251)
+  (2 nil ((, 2 581 206) ($$ 2 607 243) (, 1 479 205) (NOUNPHRASE1 2 513 203)) (NOUNPHRASE1) '' 467 222)
+))
+
+(NP1 (
+  (1 (NP NPS) NPS '' '' 785 462)
+  (2 (NP2 NP NPS) ((COMMA-COORD 1 785 76)) () '' 739 69)
+  (3 nil ((COMMA-COORD 1 833 106) ($$ 3 882 136)) () '' 836 129)
+))
+
+(NP2 (
+  (1 (NP NPS) ((POSTDESCRIP-P 2 765 387) ($$ 4 829 405)) () '' 722 398)
+))
+
+(NPS (
+  (1 (NP) NP '' '' 908 461)
+))
+
+(POSTDESCRIP-P (
+  (1 nil (($$ 1 566 60)) () '' 452 72)
+  (2 nil (($$ 4 893 387)) () '' 779 363)
+))
+
+(PRONOUN-P (
+  (1 (NP2 NOUNPHRASE1 NP NPS NOUNP0 NP1) NOUNP0 '' '' 22 132)
+))
+
+(UNKNOWN (
+  (1 (UNKNOWNWORD) UNKNOWNWORD '' '' 20 37)
+))
+
